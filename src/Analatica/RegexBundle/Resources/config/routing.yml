@@ -1,0 +1,3 @@
+analatica_regex_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AnalaticaRegexBundle:Default:index }

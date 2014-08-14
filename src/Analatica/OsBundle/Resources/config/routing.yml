@@ -1,0 +1,7 @@
+analatica_os_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AnalaticaOsBundle:Default:index }
+
+os:
+    type:     rest
+    resource: Analatica\OsBundle\Controller\OsController

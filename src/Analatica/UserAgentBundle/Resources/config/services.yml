@@ -1,0 +1,7 @@
+parameters:
+#    analatica_user_agent.example.class: Analatica\UserAgentBundle\Example
+
+services:
+#    analatica_user_agent.example:
+#        class: %analatica_user_agent.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

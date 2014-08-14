@@ -1,0 +1,40 @@
+analatica_regex:
+    resource: "@AnalaticaRegexBundle/Resources/config/routing.yml"
+    prefix:   /
+
+analatica_forfait:
+    resource: "@AnalaticaForfaitBundle/Resources/config/routing.yml"
+    prefix:   /
+
+analatica_navigateur:
+    resource: "@AnalaticaNavigateurBundle/Resources/config/routing.yml"
+    prefix:   /
+
+navigateur:
+    resource: "@AnalaticaNavigateurBundle/Resources/config/routing/navigateur.yml"
+    prefix:   /navig
+
+analatica_os:
+    resource: "@AnalaticaOsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+analatica_user_agent:
+    resource: "@AnalaticaUserAgentBundle/Resources/config/routing.yml"
+    prefix:   /
+
+analatica_user:
+    resource: "@AnalaticaUserBundle/Resources/config/routing.yml"
+    prefix:   /
+fos_oauth_server_token:
+        resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+acme_oauth_server_auth_login:
+    pattern:  /oauth/v2/auth_login
+    defaults: { _controller: AnalaticaUserBundle:Security:login }
+
+acme_oauth_server_auth_login_check:
+    pattern:  /oauth/v2/auth_login_check
+    defaults: { _controller: AnalaticaUserBundle:Security:loginCheck }

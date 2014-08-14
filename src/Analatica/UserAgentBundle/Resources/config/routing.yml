@@ -1,0 +1,7 @@
+analatica_user_agent_homepage:
+    path:     /hello1/{name}
+    defaults: { _controller: AnalaticaUserAgentBundle:Default:index }
+
+user_agent:
+    type:     rest
+    resource: Analatica\UserAgentBundle\Controller\UserAgentController

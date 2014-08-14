@@ -1,0 +1,7 @@
+parameters:
+#    analatica_navigateur.example.class: Analatica\NavigateurBundle\Example
+
+services:
+#    analatica_navigateur.example:
+#        class: %analatica_navigateur.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

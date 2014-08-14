@@ -1,0 +1,30 @@
+navigateur:
+    path:     /
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:index" }
+
+navigateur_show:
+    path:     /{id}/show
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:show" }
+
+navigateur_new:
+    path:     /new
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:new" }
+
+navigateur_create:
+    path:     /create
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:create" }
+    requirements: { _method: post }
+
+navigateur_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:edit" }
+
+navigateur_update:
+    path:     /{id}/update
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:update" }
+    requirements: { _method: post|put }
+
+navigateur_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "AnalaticaNavigateurBundle:Navigateur:delete" }
+    requirements: { _method: post|delete }

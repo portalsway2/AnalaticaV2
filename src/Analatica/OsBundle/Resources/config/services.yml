@@ -1,0 +1,7 @@
+parameters:
+#    analatica_os.example.class: Analatica\OsBundle\Example
+
+services:
+#    analatica_os.example:
+#        class: %analatica_os.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

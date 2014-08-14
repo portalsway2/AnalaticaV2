@@ -1,0 +1,7 @@
+parameters:
+#    analatica_regex.example.class: Analatica\RegexBundle\Example
+
+services:
+#    analatica_regex.example:
+#        class: %analatica_regex.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
