@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3d8858a-4c0b-46f2-8055-97652dd238e2" name="Default" comment="" />
+    <list default="true" id="c3d8858a-4c0b-46f2-8055-97652dd238e2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/log/access.log" afterPath="$PROJECT_DIR$/app/log/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="analaticaV2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,22 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Info.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/Info.php">
+      <file leaf-file-name="SecurityController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="136" selection-end="136" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="630">
+            <state line="39" column="1" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-18.541666" vertical-offset="110" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateClientCommand.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Command/CreateClientCommand.php">
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="103" selection-start="1103" selection-end="1104" vertical-scroll-proportion="-3.9019608" vertical-offset="221" max-vertical-offset="930">
-              <folding>
-                <element signature="e#48#113#0" expanded="true" />
-              </folding>
+            <state line="81" column="0" selection-start="2237" selection-end="2246" vertical-scroll-proportion="-13.888889" vertical-offset="840" max-vertical-offset="1440">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,48 +51,53 @@
       <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="956" selection-end="956" vertical-scroll-proportion="-6.375" vertical-offset="147" max-vertical-offset="765">
+            <state line="21" column="47" selection-start="921" selection-end="956" vertical-scroll-proportion="-3.9019608" vertical-offset="101" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAgent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/UserAgent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="0" selection-start="2058" selection-end="2059" vertical-scroll-proportion="-86.875" vertical-offset="0" max-vertical-offset="2175">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="285" selection-end="285" vertical-scroll-proportion="0.33562824" vertical-offset="0" max-vertical-offset="2175">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2175">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessToken.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AccessToken.php">
+      <file leaf-file-name="AuthCode.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AuthCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#46#110#0" expanded="true" />
-              </folding>
+            <state line="13" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="495">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RefreshToken.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/RefreshToken.php">
+      <file leaf-file-name="config_dev.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#46#112#0" expanded="true" />
-              </folding>
+            <state line="17" column="30" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="27" selection-start="571" selection-end="571" vertical-scroll-proportion="0.13875598" vertical-offset="243" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.8333334" vertical-offset="44" max-vertical-offset="1065">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,26 +105,10 @@
       <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="979" selection-end="979" vertical-scroll-proportion="-16.37037" vertical-offset="68" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForfaitController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="360" selection-end="360" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAgentController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/UserAgentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="772" selection-end="772" vertical-scroll-proportion="-7.9166665" vertical-offset="65" max-vertical-offset="4305">
-              <folding />
+            <state line="35" column="4" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="960">
+              <folding>
+                <marker date="1408103879663" expanded="true" signature="1077:1225" placeholder="acme_oauth_server_auth_login_check:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,17 +154,17 @@
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Controller/UserController.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Provider/UserProvider.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/UserAgentController.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Command/CreateClientCommand.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/Info.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
       </list>
     </option>
   </component>
@@ -181,7 +175,7 @@
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -304,14 +298,6 @@
               <option name="myItemId" value="Analatica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -323,11 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Analatica" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,6 +324,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,7 +394,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -416,7 +402,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2782475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2782475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -447,11 +433,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Analatica/OsBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="115" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="56" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
@@ -547,233 +528,182 @@
         <state line="28" column="19" selection-start="458" selection-end="458" vertical-scroll-proportion="-8.666667" vertical-offset="212" max-vertical-offset="1935" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/config/services.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="819" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="819" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="22" column="41" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="406" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="406" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/DependencyInjection/AnalaticaUserExtension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="23" column="43" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AuthCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#46#104#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="86" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-20.125" vertical-offset="102" max-vertical-offset="765">
-          <folding>
-            <element signature="e#113#170#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="1" column="0" selection-start="6" selection-end="86" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="849" selection-end="849" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
+        <state line="20" column="6" selection-start="849" selection-end="849" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="649">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="649" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Provider/UserProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="61" selection-start="1174" selection-end="1174" vertical-scroll-proportion="6.0416665" vertical-offset="640" max-vertical-offset="1020">
-          <folding>
-            <element signature="e#103#158#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="33" column="61" selection-start="1174" selection-end="1174" vertical-scroll-proportion="6.0416665" vertical-offset="640" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.7083333" vertical-offset="16" max-vertical-offset="420">
-          <folding>
-            <element signature="e#46#100#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.7083333" vertical-offset="16" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="879" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="19" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="-6.111111" vertical-offset="90" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="19" column="70" selection-start="879" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/Info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="136" selection-end="136" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="10" column="14" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Command/CreateClientCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="103" selection-start="1103" selection-end="1104" vertical-scroll-proportion="-3.9019608" vertical-offset="221" max-vertical-offset="930">
-          <folding>
-            <element signature="e#48#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="979" selection-end="979" vertical-scroll-proportion="-16.37037" vertical-offset="68" max-vertical-offset="690">
-          <folding />
-        </state>
+        <state line="28" column="103" selection-start="1103" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="360" selection-end="360" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="9" column="4" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/UserAgentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="772" selection-end="772" vertical-scroll-proportion="-7.9166665" vertical-offset="65" max-vertical-offset="4305">
+        <state line="17" column="53" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="4305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/UserAgent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="2058" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="2085" max-vertical-offset="2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/RefreshToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AccessToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="1" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-18.541666" vertical-offset="110" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.8333334" vertical-offset="44" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="956" selection-end="956" vertical-scroll-proportion="-6.375" vertical-offset="147" max-vertical-offset="765">
+        <state line="21" column="47" selection-start="921" selection-end="956" vertical-scroll-proportion="-3.9019608" vertical-offset="101" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/UserAgent.php">
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="2058" selection-end="2059" vertical-scroll-proportion="-86.875" vertical-offset="0" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AccessToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="35" column="4" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="960">
           <folding>
-            <element signature="e#46#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/RefreshToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#46#112#0" expanded="true" />
+            <marker date="1408103879663" expanded="true" signature="1077:1225" placeholder="acme_oauth_server_auth_login_check:" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="285" selection-end="285" vertical-scroll-proportion="0.33562824" vertical-offset="0" max-vertical-offset="2175">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AuthCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2237" selection-end="2246" vertical-scroll-proportion="-13.888889" vertical-offset="840" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="571" selection-end="571" vertical-scroll-proportion="0.13875598" vertical-offset="243" max-vertical-offset="870">
           <folding />
         </state>
       </provider>

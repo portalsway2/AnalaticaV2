@@ -18,39 +18,24 @@ security:
 
 
     firewalls:
+        main:
+            pattern: ^/
+            fos_oauth: true
+            form_login:
+                provider: fos_userbundle
+                csrf_provider: form.csrf_provider
+            logout:       true
+            anonymous:    true
+
         dev:
             pattern:  ^/(_(profiler|wdt)|css|images|js)/
             security: false
 
-        user_login:
-            pattern:  ^/user/secured/login$
-            security: false
+
 
         oauth_token:
             pattern:    ^/oauth/v2/token
             security:   false
-
-        secured_area:
-            pattern:    ^/demo/secured/
-            form_login:
-                provider: user_provider
-                check_path: _security_check
-                login_path: _demo_login
-            logout:
-                path:   _demo_logout
-
-        oauth_authorize:
-            pattern:    ^/oauth/v2/auth
-            form_login:
-                provider: user_provider
-                check_path: _security_check
-                login_path: _demo_login
-            anonymous: true
-
-        api:
-            pattern:    ^/api
-            fos_oauth:  true
-            stateless:  true
 
 
 
@@ -58,3 +43,10 @@ security:
     access_control:
         - { path: ^/api, roles: [ IS_AUTHENTICATED_FULLY ] }
         - { path: ^/user/secured/hello/admin/, roles: ROLE_ADMIN }
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/, role: ROLE_ADMIN }
+        - { path: ^/user/agent, role: ROLE_USER }
+
+
