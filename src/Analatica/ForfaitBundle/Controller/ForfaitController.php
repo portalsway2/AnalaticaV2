@@ -82,6 +82,7 @@ class ForfaitController extends FOSRestController
     public function deleteForfaitAction(ParamFetcher $paramFetcher)
     {
         $id=$paramFetcher->get("id");
+        $t=null;
         $em = $this->getDoctrine()->getManager();
         $Forfait = $em->getRepository('Analatica\ForfaitBundle\Entity\Forfait')->find($id);
         if (!$Forfait) {
