@@ -8,6 +8,8 @@ class DefaultController extends Controller
 {
     public function indexAction($name)
     {
+
+
         return $this->render('AnalaticaForfaitBundle:Default:index.html.twig', array('name' => $name));
     }
 }
