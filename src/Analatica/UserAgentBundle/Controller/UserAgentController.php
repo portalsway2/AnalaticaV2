@@ -3,6 +3,7 @@ namespace Analatica\UserAgentBundle\Controller;
 
 use Analatica\NavigateurBundle\Entity\Navigateur;
 use Analatica\OsBundle\Entity\Os;
+use Analatica\UserAgentBundle\Entity\Info;
 use Analatica\UserAgentBundle\Entity\UserAgent;
 use Analatica\UserBundle\Entity\User;
 use FOS\RestBundle\Controller\FOSRestController;
@@ -22,14 +23,8 @@ use Symfony\Component\Serializer\Serializer;
 class UserAgentController extends FOSRestController
 
 {
-    //Os
-
-    private function saveInfo($UserAgent ,$Info=null){
 
 
-
-    return null;
-    }
     private function ConverterOs(UserAgent $userAgent)
     {
 
@@ -145,20 +140,37 @@ class UserAgentController extends FOSRestController
 
     }
 
+
+    private function saveInfo($UserAgent, $Info)
+    {
+
+        $em = $this->getDoctrine()->getManager();
+        $normalizer = new GetSetMethodNormalizer();
+        $encoder = new JsonEncoder();
+        $serializer = new Serializer(array($normalizer), array($encoder));
+        /** @var  $Info Info */
+        $Info = $serializer->deserialize($Info, 'Analatica\UserAgentBundle\Entity\Info', 'json');
+
+        $Info->setUserAgent($UserAgent);
+        $em->persist($Info);
+        $em->flush();
+        return $Info;
+    }
+
     public function postSaveUserAgentAction(Request $request)
     {
 
-        $headers = $request->headers;
-        $content = $request->getContent();
 
-        if ($user = $this->verifyUser($headers->get("token"))) {
-            $userAgent=$this->SaveUserAgent($content, $user);
-            $ResultConvertB=$this->ConverterBrowser($userAgent);
+        $headers = $request->headers;
+        $contentUserAgent = $request->get("UserAgent");
+        $contentInfo = $request->get("Info");
+
+        $user = $this->container->get('security.context')->getToken()->getUser();
+
+        $userAgent = $this->SaveUserAgent(json_encode($contentUserAgent), $user);
+        $ResultConvertB=$this->ConverterBrowser($userAgent);
             $ResultConvert=$this->ConverterOs($userAgent);
-            $Ip=$this->saveInfo($userAgent);
-        } else {
-            return 44;
-        }
+        $Ip = $this->saveInfo($userAgent, json_encode($contentInfo));
 
 
         $response = View::create()->setStatusCode(200)->setData(

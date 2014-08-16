@@ -48,5 +48,5 @@ security:
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/, role: ROLE_ADMIN }
         - { path: ^/user/agent, role: ROLE_USER }
-
+        - { path: ^/saves/users/agents, role: ROLE_USER }
 
