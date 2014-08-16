@@ -4,7 +4,6 @@ namespace Analatica\NavigateurBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
 use Analatica\NavigateurBundle\Entity\Navigateur;
 use Analatica\NavigateurBundle\Form\NavigateurType;
 
@@ -29,6 +28,7 @@ class NavigateurController extends Controller
             'entities' => $entities,
         ));
     }
+
     /**
      * Creates a new Navigateur entity.
      *
@@ -49,7 +49,7 @@ class NavigateurController extends Controller
 
         return $this->render('AnalaticaNavigateurBundle:Navigateur:new.html.twig', array(
             'entity' => $entity,
-            'form'   => $form->createView(),
+            'form' => $form->createView(),
         ));
     }
 
@@ -79,11 +79,11 @@ class NavigateurController extends Controller
     public function newAction()
     {
         $entity = new Navigateur();
-        $form   = $this->createCreateForm($entity);
+        $form = $this->createCreateForm($entity);
 
         return $this->render('AnalaticaNavigateurBundle:Navigateur:new.html.twig', array(
             'entity' => $entity,
-            'form'   => $form->createView(),
+            'form' => $form->createView(),
         ));
     }
 
@@ -104,7 +104,7 @@ class NavigateurController extends Controller
         $deleteForm = $this->createDeleteForm($id);
 
         return $this->render('AnalaticaNavigateurBundle:Navigateur:show.html.twig', array(
-            'entity'      => $entity,
+            'entity' => $entity,
             'delete_form' => $deleteForm->createView(),
         ));
     }
@@ -127,19 +127,19 @@ class NavigateurController extends Controller
         $deleteForm = $this->createDeleteForm($id);
 
         return $this->render('AnalaticaNavigateurBundle:Navigateur:edit.html.twig', array(
-            'entity'      => $entity,
-            'edit_form'   => $editForm->createView(),
+            'entity' => $entity,
+            'edit_form' => $editForm->createView(),
             'delete_form' => $deleteForm->createView(),
         ));
     }
 
     /**
-    * Creates a form to edit a Navigateur entity.
-    *
-    * @param Navigateur $entity The entity
-    *
-    * @return \Symfony\Component\Form\Form The form
-    */
+     * Creates a form to edit a Navigateur entity.
+     *
+     * @param Navigateur $entity The entity
+     *
+     * @return \Symfony\Component\Form\Form The form
+     */
     private function createEditForm(Navigateur $entity)
     {
         $form = $this->createForm(new NavigateurType(), $entity, array(
@@ -151,6 +151,7 @@ class NavigateurController extends Controller
 
         return $form;
     }
+
     /**
      * Edits an existing Navigateur entity.
      *
@@ -176,11 +177,12 @@ class NavigateurController extends Controller
         }
 
         return $this->render('AnalaticaNavigateurBundle:Navigateur:edit.html.twig', array(
-            'entity'      => $entity,
-            'edit_form'   => $editForm->createView(),
+            'entity' => $entity,
+            'edit_form' => $editForm->createView(),
             'delete_form' => $deleteForm->createView(),
         ));
     }
+
     /**
      * Deletes a Navigateur entity.
      *
@@ -218,7 +220,6 @@ class NavigateurController extends Controller
             ->setAction($this->generateUrl('navigateur_delete', array('id' => $id)))
             ->setMethod('DELETE')
             ->add('submit', 'submit', array('label' => 'Delete'))
-            ->getForm()
-        ;
+            ->getForm();
     }
 }
