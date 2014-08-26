@@ -1,0 +1,9 @@
+
+
+forfait_choiceforfait:
+  resource: Web\ForfaitBundle\Controller\ForfaitController
+  methods:   [Get]
+
+forfait_cait:
+  resource: Web\ForfaitBundle\Controller\TestController
+  methods:   [Get]
