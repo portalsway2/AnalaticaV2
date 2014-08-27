@@ -1,5 +1,5 @@
 analatica_os_homepage:
-    path:     /hello/{name}
+    path:     /helloKKK/{name}
     defaults: { _controller: AnalaticaOsBundle:Default:index }
 
 os:

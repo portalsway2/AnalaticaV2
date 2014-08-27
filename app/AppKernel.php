@@ -26,6 +26,9 @@ class AppKernel extends Kernel
             new Analatica\NavigateurBundle\AnalaticaNavigateurBundle(),
             new Analatica\ForfaitBundle\AnalaticaForfaitBundle(),
             new Analatica\RegexBundle\AnalaticaRegexBundle(),
+            new Web\ForfaitBundle\WebForfaitBundle(),
+            new Web\NavigateurBundle\WebNavigateurBundle(),
+            new Web\OsBundle\WebOsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -41,6 +44,6 @@ class AppKernel extends Kernel
 
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
-        $loader->load(__DIR__.'/config/config_'.$this->getEnvironment().'.yml');
+        $loader->load(__DIR__ . '/config/config_' . $this->getEnvironment() . '.yml');
     }
 }

@@ -12,7 +12,7 @@ use FOS\UserBundle\Model\UserInterface;
  * @ORM\Table()
  * @ORM\Entity()
  */
-class User extends BaseUser implements UserInterface ,\Serializable
+class User extends BaseUser implements UserInterface, \Serializable
 {
 
     /**
@@ -33,14 +33,14 @@ class User extends BaseUser implements UserInterface ,\Serializable
 
     /**
      * @var string
-     * @ORM\Column(name="last_name", type="string")
+     * @ORM\Column(name="last_name", type="string",nullable=true)
      *
      */
     private $lastName;
 
     /**
      * @var string
-     * @ORM\Column(name="first_name", type="string")
+     * @ORM\Column(name="first_name", type="string",nullable=true)
      */
     private $firstName;
 
