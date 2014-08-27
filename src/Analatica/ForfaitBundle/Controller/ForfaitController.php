@@ -27,12 +27,9 @@ class ForfaitController extends FOSRestController
     {
         $em = $this->getDoctrine()->getManager();
         $Forfait = $em->getRepository('AnalaticaForfaitBundle:Forfait')->findAll();
-        $response = View::create()
-            ->setStatusCode(200)
+        $response = View::create()->setStatusCode(200)->setData(array("Forfait" => $Forfait));
 
-            ->setData(array("Forfait" => $Forfait));
-
-        return $response;
+        return $this->getViewHandler()->handle($response);
     }
 
     public function tttAction()

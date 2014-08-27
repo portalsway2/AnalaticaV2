@@ -31,12 +31,8 @@ class ForfaitController extends Controller
      */
     public function showAction()
     {
-        $this->forward('Forfait:getForfaitsAction')->get_resource_type();
 
-        //$em = $this->getDoctrine()->getManager();
-        //$Forfait = $em->getRepository('AnalaticaForfaitBundle:Forfait')->findAll();
-        //return $this->render('WebForfaitBundle:Forfait:show.html.twig', array('forfaits' => $Forfait));
-        // return $this->redirect($this->generateUrl('forfait_index'));
+        return $this->redirect($this->generateUrl('get_forfaits'));
 
     }
 }

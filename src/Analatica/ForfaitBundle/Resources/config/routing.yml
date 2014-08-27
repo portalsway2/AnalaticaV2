@@ -6,8 +6,6 @@ analatica_forfait_homepage:
     path:     /forfait
     defaults: { _controller: AnalaticaForfaitBundle:Forfait  }
 
-
-analatica_forfait_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: AnalaticaForfaitBundle:Default:index }
-
+forfait:
+    type:     rest
+    resource: Analatica\ForfaitBundle\Controller\ForfaitController

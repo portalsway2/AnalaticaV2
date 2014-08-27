@@ -34,7 +34,7 @@ class NavigateurController extends FOSRestController
         $entities = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
 
         $response = View::create()->setStatusCode(200)->setData(array('entities' => $entities,));
-
+        return $this->getViewHandler()->handle($response);
     }
 
     /**
