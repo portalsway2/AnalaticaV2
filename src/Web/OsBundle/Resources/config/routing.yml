@@ -1,3 +1,6 @@
-web_os_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: WebOsBundle:Default:index }
+
+
+os_choiceos:
+  resource: Web\OsBundle\Controller\OsController
+  methods:   [Get]
+

@@ -31,11 +31,7 @@ class NavigateurController extends Controller
      */
     public function showAction()
     {
-        $em = $this->getDoctrine()->getManager();
-        $entities = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
-        return $this->render('WebNavigateurBundle:Navigateur:showN.html.twig', array(
-            'entities' => $entities));
-
+        return $this->redirect($this->generateUrl('get_navigateurs'));
 
     }
 }
