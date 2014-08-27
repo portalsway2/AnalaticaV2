@@ -1,0 +1,141 @@
+{% block body %}
+
+<div class="fos_user_user_show">
+
+
+    <!-- CSS goes in the document HEAD or added to your external stylesheet -->
+    <style>
+
+
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            color: black;
+            background-color: #f2efee;
+            background-repeat: no-repeat;
+            background-position: center top;
+
+        }
+
+        body {
+            line-height: 2;
+
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+
+            quotes: none;
+
+        }
+
+        body {
+            font-size: 90%;
+            font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+            font-weight: 100;
+            color: #280d0a;
+            text-align: center;
+            line-height: 1.7em;
+
+        }
+
+        a:link, a:visited, strong {
+            color: #4c27e1;
+        }
+
+        a:hover {
+            text-decoration: none;
+
+        }
+
+        h1 {
+            font-size: 3em;
+            font-family: Verdana, sans-serif;
+            line-height: 1.89em;
+            color: #f95e0f;
+
+        }
+
+        form {
+            width: 450px;
+            margin: 0px auto;
+            text-align: left;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            background: #fff;
+            padding: 80px;
+            border: 10px solid rgba(224, 221, 220, 0.79);
+
+        }
+
+        p {
+            padding: 26px 0px;
+            border-top: 1px dotted #c7c7c7;
+
+        }
+
+        label {
+            float: left;
+            width: 200px;
+
+        }
+
+
+    </style>
+
+
+    <div>
+
+
+        <!-- Profile -->
+
+
+        <article>
+
+
+            <form>
+                <h1>Profile:</h1>
+                <ul>
+                    <li style="padding:26px 0px;border-top:1px dotted #c7c7c7;min-height:27px;">
+                        <label for="name">{{ 'Name'|trans }}:</label>
+                        {{ user.username }}
+                    </li>
+
+                    </li>
+                    <li style="padding:26px 0px;border-top:1px dotted #c7c7c7;min-height:27px;">
+                        <label for="car">{{ 'Email'|trans }}:</label>
+                        {{ user.email }}
+
+                    </li>
+                    <li style="padding:26px 0px;border-top:1px dotted #c7c7c7;min-height:27px;">
+                        <label>{{ 'First Name'|trans }}</label>
+                        {{ user.firstname }}
+                    </li>
+                    <li style="padding:26px 0px;border-top:1px dotted #c7c7c7;min-height:27px;">
+                        <label>{{ 'Last Name'|trans }}:</label>
+                        {{ user.lastname }}
+                    </li>
+                    <li style="padding:26px 0px;border-top:1px dotted #c7c7c7;min-height:27px;">
+                        <label>{{ 'Token'|trans }}:</label>
+                        {{ user.token }}
+                    </li>
+                </ul>
+
+            </form>
+        </article>
+
+
+        <footer>
+            <p><strong></strong> Analatica only for you </p>
+        </footer>
+
+    </div>
+
+{% endblock %}

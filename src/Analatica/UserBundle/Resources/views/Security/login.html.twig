@@ -1,21 +1,123 @@
-<div class="form">
-    <form id="login" class="vertical" action="" method="post">
-        <div class="form_title">
-            OAuth Authorization
-        </div>
-        {% if(error) %}
-            <div class='form_error'></div>
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    {% block fos_user_content %}
+        {% if error %}
+            <div>{{ error|trans }}</div>
         {% endif %}
-        <div class="form_item">
-            <div class="form_label"><label for="username">Username</label>:</div>
-            <div class="form_widget"><input type="text" id="username" name="_username" /></div>
+
+
+        <style>
+
+
+            body, input, textarea {
+                background-color: #f2efee;
+                font: 14px/24px Helvetica, Arial, sans-serif;
+                color: #b4abb0;
+            }
+
+            form {
+                margin: 30px 0 0 0
+            }
+
+            input, textarea {
+                background: none repeat scroll 0 0 rgba(250, 252, 254, 0.10);
+                border: 1px solid #C9C9C9;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #F5F5F6, 5px 5px 0 0 #F5F5F6, 5px 0 0 0 #F5F5F6, 0 5px 0 0 #F5F5F6, 5px -5px 0 0 #F5F5F6, -5px 5px 0 0 #F5F5F6;
+                color: #1c062a;
+                padding: 8px;
+                font-size: 14px;
+                border-radius: 5px 5px 5px 5px;
+            }
+
+            #submit {
+                border: 1px solid #b4abb0;
+                border-radius: 5px 5px 5px 5px;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                color: #a79ea3;
+                cursor: pointer;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                height: auto;
+                padding: 6px 10px;
+                text-shadow: 0 1px 0 #140828;
+                width: auto;
+            }
+
+            #signup-form {
+                width: 200px;
+                margin: 0 auto;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                background: #fff;
+                padding: 80px;
+                border: 10px solid rgba(224, 221, 220, 0.79);
+            }
+
+            form label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+                font-size: 12px;
+            }
+
+            h1 {
+                font-size: 48px;
+                color: rgb(167, 158, 163);
+                padding: 2px 0 10px 0;
+                font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+                font-weight: bold;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+
+            .left {
+                float: left;
+                padding: 30px;
+            }
+
+
+        </style>
+
+        <div class="container">
+
+        <section>
+        <div id="signup-form">
+
+            <div id="container_demo">
+                <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+
+                <div id="wrapper">
+                    <div id="login" class="animate form">
+
+                        <form action="{{ path("fos_user_security_check") }}" method="post">
+                            <h1>Login</h1>
+
+                            <p><input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/></p>
+
+                            <p>
+                                <label for="username" class="uname"> Username </label>
+                                <input type="text" id="username" name="_username" value="{{ last_username }}"
+                                       required="required"/>
+
+                            <p>
+                                <label for="password" class="youpasswd"> Password </label>
+                                <input type="password" id="password" name="_password" required="required"/>
+                            </p>
+
+                            <p class="keeplogin">
+                                <input type="checkbox" id="Remember me" name="Remember me" value="on"/>
+                                <label for="Remember me">{{ 'Remember me'|trans }}</label></p>
+                            </p>
+                            <p class="left">
+                                <input type="submit" id="submit" name="_submit" value="{{ 'Connect'|trans }}"/>
+                            </p>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="form_item">
-            <div class="form_label"><label for="password">Password</label>:</div>
-            <div class="form_widget"><input type="password" id="password" name="_password" /></div>
-        </div>
-        <div class="form_button">
-            <input type="submit" id="_submit" name="_submit" value="Log In" />
-        </div>
-    </form>
-</div>
+    {% endblock fos_user_content %}
+{% endblock %}

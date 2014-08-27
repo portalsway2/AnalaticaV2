@@ -1,0 +1,83 @@
+{% extends '::base.html.twig' %}
+{% trans_default_domain 'FOSUserBundle' %}
+{% block body %}
+    {% block fos_user_content %}
+
+
+
+        <style>
+
+
+            body, input, textarea {
+                background-color: #f2efee;
+                font: 14px/24px Helvetica, Arial, sans-serif;
+                color: #b4abb0;
+            }
+
+            input, textarea {
+                background: none repeat scroll 0 0 rgba(250, 252, 254, 0.10);
+                border: 1px solid #C9C9C9;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #F5F5F6, 5px 5px 0 0 #F5F5F6, 5px 0 0 0 #F5F5F6, 0 5px 0 0 #F5F5F6, 5px -5px 0 0 #F5F5F6, -5px 5px 0 0 #F5F5F6;
+                color: #1c062a;
+                padding: 8px;
+                font-size: 14px;
+                border-radius: 5px 5px 5px 5px;
+            }
+
+            #signup-form {
+                width: 200px;
+                margin: 0 auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                background: #fff;
+                padding: 80px;
+                border: 10px solid rgba(224, 221, 220, 0.79);
+            }
+
+            form label {
+                display: list-item;
+                margin-bottom: 5px;
+                font-weight: bold;
+                font-size: 12px;
+            }
+
+            h1 {
+                font-size: 48px;
+                color: rgb(167, 158, 163);
+                padding: 2px 0 10px 0;
+                font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+                font-weight: bold;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+
+
+        </style>
+        <div class="container">
+
+        <section>
+        <div id="signup-form">
+
+            <div id="container_demo">
+                <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+
+                <div id="wrapper">
+                    <div id="login" class="animate form">
+
+                        <form action="{{ path('fos_user_profile_edit') }}" {{ form_enctype(form) }} method="POST"
+                              class="fos_user_profile_edit">
+                            <h1>Update</h1>
+                            {{ form_widget(form) }}
+
+                            <div>
+                                <input type="submit" value="{{ 'profile.edit.submit'|trans }}"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% endblock fos_user_content %}
+
+{% endblock %}
