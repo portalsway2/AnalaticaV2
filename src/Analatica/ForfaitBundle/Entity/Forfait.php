@@ -53,7 +53,7 @@ class Forfait
     /**
      * @var date
      *
-     * @ORM\Column(name="date_b", type="date")
+     * @ORM\Column(name="date_b", type="date",nullable=true)
      */
     private $dateB;
 
