@@ -1,7 +1,7 @@
 parameters:
-    # ...
-    Analatica.controller.Forfait.class: Analatica\ForfaitBundle\Controller\ForfaitController
+#    analatica_forfait.example.class: Analatica\ForfaitBundle\Example
 
 services:
-    Forfait:
-        class: "%Analatica.controller.Forfait.class%"
+#    analatica_forfait.example:
+#        class: %analatica_forfait.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

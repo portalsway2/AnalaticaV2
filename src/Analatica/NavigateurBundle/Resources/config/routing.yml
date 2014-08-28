@@ -1,5 +1,0 @@
-
-
-navigateur:
-    type:     rest
-    resource: Analatica\NavigateurBundle\Controller\NavigateurController

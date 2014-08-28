@@ -9,9 +9,9 @@ use Symfony\Component\HttpFoundation\Request;
 use FOS\RestBundle\Controller\Annotations\QueryParam;
 use Acme\DemoBundle\Form\ContactType;
 use FOS\RestBundle\View\View;
+
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
 use Symfony\Component\Serializer\Serializer;
@@ -31,14 +31,6 @@ class ForfaitController extends FOSRestController
         $response = View::create()->setStatusCode(200)->setData(array("Forfait" => $Forfait));
 
         return $this->getViewHandler()->handle($response);
-    }
-
-    public function tttAction()
-    {
-        $response = new Response();
-        $response->setStatusCode(200);
-        $response->setContent(json_encode(array("jjj", "yyyy"), true));
-        return $response;
     }
 
     /**

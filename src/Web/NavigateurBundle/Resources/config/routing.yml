@@ -1,7 +1,0 @@
-navigateur_show:
-  resource: Web\NavigateurBundle\Controller\NavigateurController
-  methods:   [Get]
-
-Navigateur_azerty:
-  resource: Web\NavigateurBundle\Controller\DefaultController
-  methods:   [Get]
