@@ -31,7 +31,35 @@ class NavigateurController extends Controller
      */
     public function showAction()
     {
-        return $this->redirect($this->generateUrl('get_navigateurs'));
+        $em = $this->getDoctrine()->getManager();
+        $Navigateurs = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
+        $stat = array();
+        $stat1 = array();
+        foreach ($Navigateurs as $nav) {
+            $var = array();
+            $var1 = array();
+            $resultFind = false;
+            $resultFind1 = false;
+
+
+            foreach ($stat1 as $index1 => $s1) {
+
+                if ($s1[0] == $nav->getNavigateur()) {
+                    $stat1[$index1][1] += 1;
+                    $resultFind1 = true;
+                };
+            }
+            if (!$resultFind1) {
+                $var1[0] = $nav->getNavigateur();
+                $var1[1] = 1;
+                array_push($stat1, $var1);
+            }
+
+        }
+
+        return $this->render('WebNavigateurBundle:show:index.html.twig', array("stat" => $stat1));
+
 
     }
+
 }

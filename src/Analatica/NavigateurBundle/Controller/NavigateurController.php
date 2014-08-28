@@ -100,6 +100,35 @@ class NavigateurController extends FOSRestController
         return $this->getViewHandler()->handle($response);
     }
 
+    public function getNumberNavAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $Navigateurs = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
+        $stat = array();
+
+        foreach ($Navigateurs as $nav) {
+            $var = array();
+
+            $resultFind = false;
+            foreach ($stat as $index => $s) {
+
+                if (array_key_exists($nav->getNavigateur(), $s)) {
+                    $stat[$index][$nav->getNavigateur()] += 1;
+                    $resultFind = true;
+                };
+            }
+            if (!$resultFind) {
+                $var[$nav->getNavigateur()] = 1;
+                array_push($stat, $var);
+            }
+        }
+        $response = View::create()->setStatusCode(200)->setData(array("Navigateur" => $stat));
+
+        return $this->getViewHandler()->handle($response);
+
+    }
+
+
     /** * @return \FOS\RestBundle\View\ViewHandler */
     private function getViewHandler()
     {

@@ -26,6 +26,25 @@
 {% block body %}
 
 {% endblock %}
-{% block javascripts %}{% endblock %}
+{% block javascripts %}
+
+    {% javascripts 'bundles/webnavigateur/css/bootstrap-3.1.1/dist/js/bootstrap.min.js' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+
+
+    {% javascripts 'bundles/webnavigateur/js/jquery.min.js' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+
+    {% javascripts 'bundles/webnavigateur/Highcharts/highcharts.js' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+    {% javascripts 'bundles/webnavigateur/Highcharts/modules/exporting.js' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
 </body>
 </html>
