@@ -2,6 +2,266 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8858a-4c0b-46f2-8055-97652dd238e2" name="Default" comment="test c">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/blog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/carousel.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/img/components.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/cover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/img/devices.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/grid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/jumbotron-narrow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/jumbotron.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/justified-nav.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/navbar-fixed.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/navbar-static.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/navbar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/non-responsive.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/offcanvas.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/img/sass-less.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/sign-in.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/starter-template.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/sticky-footer-navbar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/sticky-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/screenshots/theme.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/.jscs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/test-infra/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/ads.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/vendor/blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/blog/blog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/carousel/carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/components.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_data/core-team.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/cover/cover.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/customize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/customize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/jade/customizer-nav.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/customizer-variables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/jade/customizer-variables.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/customizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/dashboard/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_layouts/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/css/docs.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/docs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/vendor/filesaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/getting-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_data/glyphicons.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/grid/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/highcharts-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/vendor/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_layouts/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/ie8-responsive-file-warning.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/blog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/carousel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/cover/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/dashboard/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/grid/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/jumbotron/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/jumbotron-narrow/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/justified-nav/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/navbar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/navbar-fixed-top/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/navbar-static-top/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/non-responsive/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/offcanvas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/signin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/starter-template/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/sticky-footer/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/sticky-footer-navbar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/theme/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/javascript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/vendor/jszip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/jumbotron-narrow/jumbotron-narrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/jumbotron/jumbotron.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/justified-nav/justified-nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/vendor/less.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/migration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-components.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-customize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-getting-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-javascript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/nav-migration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/navbar-fixed-top/navbar-fixed-top.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/navbar-static-top/navbar-static-top.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/navbar/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/non-responsive/non-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/test-infra/npm-shrinkwrap.canonical.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/offcanvas/offcanvas.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/offcanvas/offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/phantom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/css/pygments-manni.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/vendor/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/vendor/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/raw-files.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/test-infra/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/test-infra/s3_cache.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_data/sass-team.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/test-infra/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_data/showcase.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/grunt/shrinkwrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/signin/signin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/_includes/social-buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/starter-template/starter-template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/sticky-footer/sticky-footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/examples/theme/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/docs/assets/js/vendor/uglify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/test-infra/uncached-npm-install.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/less/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php" afterPath="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Web/NavigateurBundle/Controller/NavigateurController.php" afterPath="$PROJECT_DIR$/src/Web/NavigateurBundle/Controller/NavigateurController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/log/access.log" afterPath="$PROJECT_DIR$/app/log/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/log/error.log" afterPath="$PROJECT_DIR$/app/log/error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="analaticaV2.iws" />
@@ -14,7 +274,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -24,7 +284,80 @@
     <favorites_list name="analaticaV2" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ForfaitController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="8" selection-start="906" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2055">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigateurController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Controller/NavigateurController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="22" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.375" vertical-offset="429" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigateurController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="31" selection-start="3610" selection-end="3628" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2295">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/console">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/views/show/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="32" selection-start="169" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_9.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="681" column="9" selection-start="23654" selection-end="23654" vertical-scroll-proportion="0.0" vertical-offset="10003" max-vertical-offset="15960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigateur.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Entity/Navigateur.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="17" selection-start="615" selection-end="626" vertical-scroll-proportion="-0.0" vertical-offset="525" max-vertical-offset="1950">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="217" column="31" selection-start="7225" selection-end="7236" vertical-scroll-proportion="0.0" vertical-offset="3255" max-vertical-offset="4230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -37,59 +370,66 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/OsBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Entity/Navigateur.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/OsBundle/Controller/OsController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Entity/Forfait.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Entity/User_Forfait.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Entity/UserForfait.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/UserAgent.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/RegexBundle/Entity/RegexMobile.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/RegexBundle/Entity/RegexBrowsers.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Analatica/RegexBundle/Entity/RegexOs.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/OsBundle/Entity/Os.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Repository/default.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/provider/UserProvider.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/DependencyInjection/AnalaticaUserExtension.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Entity/Client.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AccessToken.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Entity/RefreshToken Entity.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AuthCode.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Controller/UserController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Provider/UserProvider.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/UserAgentController.php" />
         <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Command/CreateClientCommand.php" />
-        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/Info.php" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/InfoController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/UserAgentController.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/UserAgent.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/Info.php" />
+        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/AnalaticaUserBundle.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Profile/show.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/ChangePassword/changePassword_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Profile/edit_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/ChangePassword/changePassword_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Profile/show_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/cache/dev/assetic/config/4/43a80f0e087752a2d4724591f85aa0e1.php" />
+        <option value="$PROJECT_DIR$/src/Web/ForfaitBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/YamlFileLoader.php" />
+        <option value="$PROJECT_DIR$/src/Web/ForfaitBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Web/ForfaitBundle/Controller/TestController.php" />
+        <option value="$PROJECT_DIR$/src/Web/ForfaitBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Web/ForfaitBundle/Resources/views/Forfait/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/NavigateurBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/views/Navigateur/showN.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/ForfaitBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Web/ForfaitBundle/Controller/ForfaitController.php" />
+        <option value="$PROJECT_DIR$/src/Web/OsBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Web/OsBundle/Controller/OsController.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Form/ChangePasswordFormType.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Form/RegistrationFormType.php" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Form/ProfileFormType.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.xml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/views/show/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php" />
+        <option value="$PROJECT_DIR$/src/Web/NavigateurBundle/Controller/NavigateurController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="71" />
+    <option name="y" value="-4" />
+    <option name="width" value="1295" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -117,6 +457,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,11 +504,197 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Analatica" />
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="show" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Navigateur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Analatica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -189,7 +716,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
+              <option name="myItemId" value="NavigateurBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analaticaV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Analatica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigateurBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -214,48 +763,8 @@
               <option name="myItemId" value="Analatica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analaticaV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analaticaV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Analatica" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForfaitBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analaticaV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analaticaV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Analatica" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForfaitBundle" />
+              <option name="myItemId" value="NavigateurBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -291,13 +800,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,8 +825,27 @@
     <property name="LayoutCode.rearrangeEntries" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesYaml" value="false" />
+    <property name="LayoutCode.rearrangeEntriesTwig" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/js" />
+      <recent name="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css" />
+      <recent name="$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public" />
+      <recent name="$PROJECT_DIR$/src/Analatica/UserBundle/Form" />
+      <recent name="$PROJECT_DIR$/src/Analatica/UserBundle/Resources/public/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Acme" />
+      <recent name="$PROJECT_DIR$/src/Web/ForfaitBundle/Resources/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.Acme">
+    <configuration default="false" name="Acme" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/src/Acme" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -328,7 +859,14 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.Acme" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.Acme" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -362,32 +900,60 @@
       <created>1408107185793</created>
       <updated>1408107185793</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test c">
+      <created>1408107263243</created>
+      <updated>1408107263243</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test c">
+      <created>1408187734493</created>
+      <updated>1408187734493</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test c">
+      <created>1408196002082</created>
+      <updated>1408196002082</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test c">
+      <created>1409065397082</created>
+      <updated>1409065397082</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test c">
+      <created>1409139187956</created>
+      <updated>1409139187956</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test c">
+      <created>1409139209048</created>
+      <updated>1409139209048</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test c">
+      <created>1409150284268</created>
+      <updated>1409150284268</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="71" y="-4" width="1295" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2782475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27799228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -404,286 +970,281 @@
     </option>
     <MESSAGE value="test c" />
     <option name="LAST_COMMIT_MESSAGE" value="test c" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Entity/Forfait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="6" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-7.647059" vertical-offset="630" max-vertical-offset="3135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Entity/UserForfait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="408" selection-end="408" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/RegexBundle/Entity/RegexMobile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="802" selection-end="804" vertical-scroll-proportion="-11.176471" vertical-offset="180" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/Analatica/OsBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+        <state line="6" column="52" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/config/routing/navigateur.yml">
+    <entry file="file://$PROJECT_DIR$/src/Web/OsBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="137" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/views/Navigateur/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="735" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/RegexBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="777" selection-end="777" vertical-scroll-proportion="-11.083333" vertical-offset="154" max-vertical-offset="3390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/DependencyInjection/AnalaticaForfaitExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/OsBundle/Controller/OsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="23" selection-start="3120" selection-end="3120" vertical-scroll-proportion="-16.25" vertical-offset="765" max-vertical-offset="1455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/RegexBundle/Entity/RegexOs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="1119" selection-end="1124" vertical-scroll-proportion="-3.9019608" vertical-offset="896" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Entity/Navigateur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="12" selection-start="1671" selection-end="1672" vertical-scroll-proportion="-3.9019608" vertical-offset="1346" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/OsBundle/Entity/Os.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="133" selection-end="133" vertical-scroll-proportion="23.862745" vertical-offset="1397" max-vertical-offset="1995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/RegexBundle/Entity/RegexBrowsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="19" selection-start="458" selection-end="458" vertical-scroll-proportion="-8.666667" vertical-offset="212" max-vertical-offset="1935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/config/services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="819" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/DependencyInjection/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="406" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/DependencyInjection/AnalaticaUserExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="86" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="849" selection-end="849" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="649" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Provider/UserProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="61" selection-start="1174" selection-end="1174" vertical-scroll-proportion="6.0416665" vertical-offset="640" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.7083333" vertical-offset="16" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="879" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/Info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Command/CreateClientCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="103" selection-start="1103" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Controller/UserAgentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="4305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserAgentBundle/Entity/UserAgent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="2058" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="2085" max-vertical-offset="2175" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/RefreshToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AccessToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-18.541666" vertical-offset="110" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0704" vertical-offset="44" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="921" selection-end="956" vertical-scroll-proportion="-3.9019608" vertical-offset="101" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.41140217" vertical-offset="258" max-vertical-offset="960">
-          <folding>
-            <marker date="1408103879663" expanded="true" signature="-1:-1" placeholder="acme_oauth_server_auth_login_check:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Entity/AuthCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="2237" selection-end="2246" vertical-scroll-proportion="-13.888889" vertical-offset="840" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="870">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="315">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/DependencyInjection/AnalaticaForfaitExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="84" selection-start="822" selection-end="822" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/FOSRestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8097686" vertical-offset="315" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="435" selection-end="435" vertical-scroll-proportion="-0.38392857" vertical-offset="309" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.26442307" vertical-offset="0" max-vertical-offset="624">
+        <state line="19" column="25" selection-start="460" selection-end="460" vertical-scroll-proportion="-1.7916666" vertical-offset="137" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/AbstractRequestBodyParamConverter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="785" selection-end="785" vertical-scroll-proportion="-4.8789473" vertical-offset="2049" max-vertical-offset="2655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/ForfaitBundle/Controller/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/WelcomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/SecuredController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.166666" vertical-offset="484" max-vertical-offset="1065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.541667" vertical-offset="349" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/OsBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="2" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/OsBundle/Controller/OsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="3.9166667" vertical-offset="259" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/ForfaitBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="2" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/OsBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/ForfaitBundle/Controller/ForfaitController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="65" selection-start="919" selection-end="919" vertical-scroll-proportion="-19.5" vertical-offset="42" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/OsBundle/Controller/OsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="62" selection-start="823" selection-end="878" vertical-scroll-proportion="-19.5" vertical-offset="42" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Form/NavigateurType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/RegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.0833333" vertical-offset="50" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Form/ProfileFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="54" selection-start="2115" selection-end="2117" vertical-scroll-proportion="0.64102566" vertical-offset="420" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Form/ChangePasswordFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="29" selection-start="1360" selection-end="1360" vertical-scroll-proportion="-7.8431373" vertical-offset="125" max-vertical-offset="1095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/ChangePasswordFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="302" selection-end="302" vertical-scroll-proportion="0.7916667" vertical-offset="109" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/AnalaticaUserBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="67" selection-start="1855" selection-end="1867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="32" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="835" max-vertical-offset="1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Form/RegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="40" selection-start="2028" selection-end="2029" vertical-scroll-proportion="-19.208334" vertical-offset="319" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/DependencyInjection/AnalaticaUserExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/UserBundle/Resources/config/services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="18" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/Highcharts/themes/gray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7334361" vertical-offset="1125" max-vertical-offset="3945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/css/bootstrap-3.1.1/js/tests/unit/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/public/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="41" selection-start="644" selection-end="644" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/views/Navigateur/showN.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="931" selection-end="945" vertical-scroll-proportion="0.816" vertical-offset="0" max-vertical-offset="625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/ForfaitBundle/Controller/ForfaitController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="906" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="952" column="53" selection-start="30603" selection-end="30607" vertical-scroll-proportion="-2.5384614" vertical-offset="15765" max-vertical-offset="16530" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="681" column="9" selection-start="23654" selection-end="23654" vertical-scroll-proportion="0.0" vertical-offset="10003" max-vertical-offset="15960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Resources/views/show/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="169" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="31" selection-start="7225" selection-end="7236" vertical-scroll-proportion="0.0" vertical-offset="3255" max-vertical-offset="4230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Controller/NavigateurController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="31" selection-start="3610" selection-end="3628" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analatica/NavigateurBundle/Entity/Navigateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="17" selection-start="615" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Web/NavigateurBundle/Controller/NavigateurController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.375" vertical-offset="429" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>

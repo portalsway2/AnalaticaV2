@@ -1,0 +1,6 @@
+
+
+os_choiceos:
+  resource: Web\OsBundle\Controller\OsController
+  methods:   [Get]
+

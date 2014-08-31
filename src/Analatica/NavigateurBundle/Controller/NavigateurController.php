@@ -2,223 +2,146 @@
 
 namespace Analatica\NavigateurBundle\Controller;
 
-use Symfony\Component\HttpFoundation\Request;
+use FOS\RestBundle\Controller\FOSRestController;
+use FOS\RestBundle\Request\ParamFetcher;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
-use Analatica\NavigateurBundle\Entity\Navigateur;
-use Analatica\NavigateurBundle\Form\NavigateurType;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Request;
+use FOS\RestBundle\Controller\Annotations\QueryParam;
+use Acme\DemoBundle\Form\ContactType;
+use FOS\RestBundle\View\View;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
+use Symfony\Component\Serializer\Serializer;
 
 /**
  * Navigateur controller.
  *
  */
-class NavigateurController extends Controller
+class NavigateurController extends FOSRestController
 {
 
     /**
      * Lists all Navigateur entities.
      *
      */
-    public function indexAction()
+    public function getNavigateursAction()
     {
         $em = $this->getDoctrine()->getManager();
 
         $entities = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
 
-        return $this->render('AnalaticaNavigateurBundle:Navigateur:index.html.twig', array(
-            'entities' => $entities,
-        ));
+        $response = View::create()->setStatusCode(200)->setData(array('entities' => $entities,));
+        return $this->getViewHandler()->handle($response);
     }
+
     /**
-     * Creates a new Navigateur entity.
-     *
+     * @param ParamFetcher $paramFetcher
+     * @QueryParam(name="id")
+     * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function createAction(Request $request)
+    public function getNavigateurAction(ParamFetcher $paramFetcher)
     {
-        $entity = new Navigateur();
-        $form = $this->createCreateForm($entity);
-        $form->handleRequest($request);
 
-        if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($entity);
-            $em->flush();
+        $id = $paramFetcher->get("id");
+        $em = $this->getDoctrine()->getManager();
+        $Navigateur = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findById($id);
 
-            return $this->redirect($this->generateUrl('navigateur_show', array('id' => $entity->getId())));
+        $response = View::create()->setStatusCode(200)->setData(array("Navigateur" => $Navigateur));
+
+        return $this->getViewHandler()->handle($response);
+    }
+
+    /**
+     * @param ParamFetcher $paramFetcher
+     * @QueryParam(name="id")
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function putNavigateurAction(Request $request, ParamFetcher $paramFetcher)
+    {
+        $id = $paramFetcher->get("id");
+        $em = $this->getDoctrine()->getManager();
+        $normalizer = new GetSetMethodNormalizer();
+        $encoder = new JsonEncoder();
+        $serializer = new Serializer(array($normalizer), array($encoder));
+        $Navigateur = $serializer->deserialize($request->getContent(), 'Analatica\NavigateurBundle\Entity\Navigateur', 'json');
+        $Navigateur->setId($id);
+        $em->flush();
+
+        $response = View::create()->setStatusCode(200)->setData(array("Navigateur" => $Navigateur));
+
+        return $this->getViewHandler()->handle($response);
+    }
+
+    /**
+     * @param ParamFetcher $paramFetcher
+     * @QueryParam(name="id")
+     * @return \Symfony\Component\HttpFoundation\Response
+     * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
+     */
+    public function deleteNavigateurAction(ParamFetcher $paramFetcher)
+    {
+        $id = $paramFetcher->get("id");
+        $em = $this->getDoctrine()->getManager();
+        $Navigateur = $em->getRepository('Analatica\NavigateurBundle\Entity\Navigateur')->find($id);
+        if (!$Navigateur) {
+            $response = View::create()->setStatusCode(888)->setData(array("Navigateur" => "null"));
+
+            return $this->getViewHandler()->handle($response);
         }
+        $em->remove($Navigateur);
+        $em->flush();
 
-        return $this->render('AnalaticaNavigateurBundle:Navigateur:new.html.twig', array(
-            'entity' => $entity,
-            'form'   => $form->createView(),
-        ));
+        $response = View::create()->setStatusCode(200)->setData(array("Navigateur" => null));
+
+        return $this->getViewHandler()->handle($response);
     }
 
-    /**
-     * Creates a form to create a Navigateur entity.
-     *
-     * @param Navigateur $entity The entity
-     *
-     * @return \Symfony\Component\Form\Form The form
-     */
-    private function createCreateForm(Navigateur $entity)
-    {
-        $form = $this->createForm(new NavigateurType(), $entity, array(
-            'action' => $this->generateUrl('navigateur_create'),
-            'method' => 'POST',
-        ));
-
-        $form->add('submit', 'submit', array('label' => 'Create'));
-
-        return $form;
-    }
-
-    /**
-     * Displays a form to create a new Navigateur entity.
-     *
-     */
-    public function newAction()
-    {
-        $entity = new Navigateur();
-        $form   = $this->createCreateForm($entity);
-
-        return $this->render('AnalaticaNavigateurBundle:Navigateur:new.html.twig', array(
-            'entity' => $entity,
-            'form'   => $form->createView(),
-        ));
-    }
-
-    /**
-     * Finds and displays a Navigateur entity.
-     *
-     */
-    public function showAction($id)
+    public function getNumberNavAction()
     {
         $em = $this->getDoctrine()->getManager();
+        $Navigateurs = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
+        $stat = array();
 
-        $entity = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->find($id);
+        foreach ($Navigateurs as $nav) {
+            $var = array();
 
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Navigateur entity.');
-        }
+            $resultFind = false;
+            foreach ($stat as $index => $s) {
 
-        $deleteForm = $this->createDeleteForm($id);
-
-        return $this->render('AnalaticaNavigateurBundle:Navigateur:show.html.twig', array(
-            'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),
-        ));
-    }
-
-    /**
-     * Displays a form to edit an existing Navigateur entity.
-     *
-     */
-    public function editAction($id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Navigateur entity.');
-        }
-
-        $editForm = $this->createEditForm($entity);
-        $deleteForm = $this->createDeleteForm($id);
-
-        return $this->render('AnalaticaNavigateurBundle:Navigateur:edit.html.twig', array(
-            'entity'      => $entity,
-            'edit_form'   => $editForm->createView(),
-            'delete_form' => $deleteForm->createView(),
-        ));
-    }
-
-    /**
-    * Creates a form to edit a Navigateur entity.
-    *
-    * @param Navigateur $entity The entity
-    *
-    * @return \Symfony\Component\Form\Form The form
-    */
-    private function createEditForm(Navigateur $entity)
-    {
-        $form = $this->createForm(new NavigateurType(), $entity, array(
-            'action' => $this->generateUrl('navigateur_update', array('id' => $entity->getId())),
-            'method' => 'PUT',
-        ));
-
-        $form->add('submit', 'submit', array('label' => 'Update'));
-
-        return $form;
-    }
-    /**
-     * Edits an existing Navigateur entity.
-     *
-     */
-    public function updateAction(Request $request, $id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Navigateur entity.');
-        }
-
-        $deleteForm = $this->createDeleteForm($id);
-        $editForm = $this->createEditForm($entity);
-        $editForm->handleRequest($request);
-
-        if ($editForm->isValid()) {
-            $em->flush();
-
-            return $this->redirect($this->generateUrl('navigateur_edit', array('id' => $id)));
-        }
-
-        return $this->render('AnalaticaNavigateurBundle:Navigateur:edit.html.twig', array(
-            'entity'      => $entity,
-            'edit_form'   => $editForm->createView(),
-            'delete_form' => $deleteForm->createView(),
-        ));
-    }
-    /**
-     * Deletes a Navigateur entity.
-     *
-     */
-    public function deleteAction(Request $request, $id)
-    {
-        $form = $this->createDeleteForm($id);
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $entity = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->find($id);
-
-            if (!$entity) {
-                throw $this->createNotFoundException('Unable to find Navigateur entity.');
+                if (array_key_exists($nav->getNavigateur(), $s)) {
+                    $stat[$index][$nav->getNavigateur()] += 1;
+                    $resultFind = true;
+                };
             }
-
-            $em->remove($entity);
-            $em->flush();
+            if (!$resultFind) {
+                $var[$nav->getNavigateur()] = 1;
+                array_push($stat, $var);
+            }
         }
+        $response = View::create()->setStatusCode(200)->setData(array("Navigateur" => $stat));
 
-        return $this->redirect($this->generateUrl('navigateur'));
+        return $this->getViewHandler()->handle($response);
+
     }
 
-    /**
-     * Creates a form to delete a Navigateur entity by id.
-     *
-     * @param mixed $id The entity id
-     *
-     * @return \Symfony\Component\Form\Form The form
-     */
-    private function createDeleteForm($id)
+
+    /** * @return \FOS\RestBundle\View\ViewHandler */
+    private function getViewHandler()
     {
-        return $this->createFormBuilder()
-            ->setAction($this->generateUrl('navigateur_delete', array('id' => $id)))
-            ->setMethod('DELETE')
-            ->add('submit', 'submit', array('label' => 'Delete'))
-            ->getForm()
-        ;
+        return $this->container->get('fos_rest.view_handler');
     }
 }
+
+
+
+
+
+
+
+
+
+

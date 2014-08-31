@@ -11,6 +11,11 @@
 
     <services>
 
+        <service id="analatica_user.registration.form.type" class="Analatica\UserBundle\Form\RegistrationFormType">
+            <tag name="form.type" alias="analatica_user_registration"/>
+            <argument>%fos_user.model.user.class%</argument>
+        </service>
+
         <service id="platform.user.manager" class="Doctrine\ORM\EntityManager"
                  factory-service="doctrine" factory-method="getManagerForClass">
             <argument>%platform.entity.user.class%</argument>

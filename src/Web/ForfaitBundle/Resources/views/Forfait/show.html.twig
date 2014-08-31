@@ -1,0 +1,178 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+    <style>
+
+
+        body {
+            background: #f8f8f8;
+            font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+            background: left top repeat;
+            text-align: center;
+            color: #62595e;
+        }
+
+        body, input, textarea {
+            background-color: #f2efee;
+            font: 14px/24px Helvetica, Arial, sans-serif;
+            color: #b4abb0;
+        }
+
+        #signup-form {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            background: #fff;
+            padding: 10px;
+            border: 10px solid rgba(224, 221, 220, 0.79);
+        }
+
+        form label {
+            display: list-item;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: rgb(167, 158, 163);
+            padding: 2px 0 10px 0;
+            font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .page-container {
+            overflow: hidden;
+            width: 1000px;
+            margin: 100px auto 0 auto;
+            padding-bottom: 100px;
+        }
+
+        .pricing-table {
+            float: left;
+            width: 295px;
+            margin: 50px 14px 0 14px;
+            background: #a79ea3;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+
+        }
+
+        .pricing-table strong {
+            font-weight: 700;
+            color: #3d3d3d;
+        }
+
+        .pricing-table-header {
+            padding: 30px 0 25px 0;
+            background: #3d3d3d;
+            -moz-border-radius-topleft: 6px;
+            -moz-border-radius-topright: 6px;
+            -webkit-border-top-left-radius: 6px;
+            -webkit-border-top-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#3e3e3e));
+            background-image: -webkit-linear-gradient(top, black, black);
+            background-image: -moz-linear-gradient(top, black, black);
+            background-image: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black, black);
+            background-image: linear-gradient(to bottom, #a79ea3, #3e3e3e);
+        }
+
+        .pricing-table-header h3 {
+            margin-top: 10px;
+            font-size: 27px;
+            font-weight: 200;
+            color: #fefdff;
+            text-shadow: 0 -2px 0 rgba(249, 94, 15, 0.15);
+        }
+
+        .pricing-table-space {
+            height: 10px;
+        }
+
+        .pricing-table-features {
+            margin: 15px 30px 0 30px;
+            padding: 0 10px 15px 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+            line-height: 30px;
+            font-size: 16px;
+            color: #000000;
+        }
+
+        .pricing-table-sign-up {
+            margin-top: 5px;
+            padding-bottom: 30px;
+        }
+
+        .pricing-table-sign-up a {
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#3e3e3e));
+            background-image: -webkit-linear-gradient(top, #494949, #3e3e3e);
+            background-image: -moz-linear-gradient(top, #494949, #3e3e3e);
+            background-image: -o-linear-gradient(top, #494949, #3e3e3e);
+            background-image: -ms-linear-gradient(top, #494949, #3e3e3e);
+            background-image: linear-gradient(to bottom, #494949, #3e3e3e);
+            line-height: 40px;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-shadow: 0 -2px 0 rgba(0, 0, 0, .25);
+            -o-transition: all .2s;
+            -moz-transition: all .2s;
+            -webkit-transition: all .2s;
+            -ms-transition: all .2s;
+        }
+
+
+    </style>
+    <section>
+    <div id="signup-form">
+
+
+        <div class="page-container">
+            <h1>Forfaits</h1>
+            {% for forfait in forfaits %}
+                <div class="pricing-table">
+
+                    <div class="pricing-table-header">
+                        <h3> {{ forfait.name }}</h3>
+
+                        <h3>$ {{ forfait.price }}</h3>
+                    </div>
+                    <div class="pricing-table-space"></div>
+                    <div class="pricing-table-features">
+                        <p><strong>Name </strong> {{ forfait.name }}  </p>
+
+                        <p><strong>Numbre of requests</strong> {{ forfait.nbruseragent }}</p>
+
+                        <p><strong> Description </strong> {{ forfait.description }}</p>
+
+
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+    </div>
+
+
+
+
+{% endblock body %}
