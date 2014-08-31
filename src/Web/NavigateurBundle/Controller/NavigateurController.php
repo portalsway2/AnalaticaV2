@@ -32,10 +32,34 @@ class NavigateurController extends Controller
     public function showAction()
     {
         $em = $this->getDoctrine()->getManager();
-        $entities = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
-        return $this->render('WebNavigateurBundle:Navigateur:showN.html.twig', array(
-            'entities' => $entities));
+        $Navigateurs = $em->getRepository('AnalaticaNavigateurBundle:Navigateur')->findAll();
+        $stat = array();
+        $stat1 = array();
+        foreach ($Navigateurs as $nav) {
+            $var = array();
+            $var1 = array();
+            $resultFind = false;
+            $resultFind1 = false;
+
+
+            foreach ($stat1 as $index1 => $s1) {
+
+                if ($s1[0] == $nav->getNavigateur()) {
+                    $stat1[$index1][1] += 1;
+                    $resultFind1 = true;
+                };
+            }
+            if (!$resultFind1) {
+                $var1[0] = $nav->getNavigateur();
+                $var1[1] = 1;
+                array_push($stat1, $var1);
+            }
+
+        }
+
+        return $this->render('WebNavigateurBundle:show:index.html.twig', array("stat" => $stat1));
 
 
     }
+
 }
